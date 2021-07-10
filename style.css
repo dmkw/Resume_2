@@ -1,0 +1,266 @@
+
+:link {
+    text-decoration: none;
+    color: white;
+}
+
+:visited {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    margin-left: 2%;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+
+span {
+    color: black;
+}
+
+/* Контейнеры */
+
+#con1 {
+    background-color: #161b25;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+#con2 {
+    margin-left: 10%;
+    background-color: #21252e;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+#con3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#con5 {
+    display: flex;
+    flex-direction: row ;
+}
+
+#con6 {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#con8 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#con9 {
+    margin-left: 10%;
+    background-color: #e7e8e9  ;
+    width: 23.39%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+#con10 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#con11 {
+    display: flex;
+    flex-direction: row;
+}
+
+#con14 {
+    height: 1000px;
+    width: 66.61%;
+    display: flex;
+    flex-direction: column;
+}
+
+#con15 {
+    display: flex;
+    flex-direction: column;
+}
+
+#con16 {
+    display: flex;
+    flex-direction: row;
+}
+
+#con17 {
+    margin-top: 6.45%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#con18 {
+    margin-top: 6.45%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Прочие ID */
+
+#con4 {
+    margin-left: 5%;
+    margin-top: 9%;
+    display: flex;
+}
+
+#con7 {
+    margin-top: 11.6%;
+    margin-left: 5%;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#con12 {
+    margin-top: 10%;
+    margin-left: 23%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#con13 {
+    margin-top: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#con19 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#con20 {
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#con21 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#con22 {
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#img {
+    margin-top: 30%;
+    width: 100%;
+}
+
+#fe {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: white;
+    background-color: #21252e;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+
+}
+
+/* Классы */
+
+.grow:hover {
+    -webkit-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.zag {
+    margin-top: 10%;
+    align-self: center;
+    color:#161b25;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.txt {
+    margin-top: 10%;
+    margin-left: 25%;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.activities {
+    color: #282828;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4%;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
